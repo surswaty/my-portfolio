@@ -1,6 +1,7 @@
 import Intro from "./Intro";
 import Nav from "./Nav";
 import Contact from "./Contact"
+import Footer from "./Footer.js";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Nav />
       <Intro />
       <Contact />
+      <Footer />
     </div>
   );
 }
