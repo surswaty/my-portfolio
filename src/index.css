@@ -5,7 +5,6 @@
 html {
     box-sizing: border-box;
 }
-
 body {
     padding: 0;
     margin: 0;
@@ -17,7 +16,6 @@ body {
   a {
     color: #e310cb;
   }
-
   a:hover {
     color: #ff17e4;
     text-decoration: none;
