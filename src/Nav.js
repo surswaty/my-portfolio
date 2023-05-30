@@ -1,4 +1,5 @@
-
+import {Link} from 'react-router-dom';
+    
 const Nav = () => {
     return(
         <nav className="font-mono max-w-7xl p-16">
@@ -12,7 +13,7 @@ const Nav = () => {
                     </h1>
                 </li>
                 <li className=""><a className="text-white" href="#projects">Projects</a></li>
-                <li><a className="text-white" href="about.html">About</a></li>
+                <li><a><Link className='text-white' to={'about'}>About</Link></a></li>
                 <li><a className="text-white" href="#contacts">Contacts</a></li>
                 <li>
                     <a href="https://linkedin.com/in/remanswati" >
@@ -26,7 +27,7 @@ const Nav = () => {
                         <span className="sr-only">Github</span>
                     </a>
                 </li>
-                <li className=""><a href="" target="blank" className="button bg-magenta text-white p-2 rounded hover:text-white hover:bg-hotmag ">Resume</a></li>
+                <li className=""><a href="" target="blank" className="button bg-magenta text-white p-2 rounded hover:text-white hover:bg-hotmag">Resume</a></li>
                 
             </ul>
         </nav>

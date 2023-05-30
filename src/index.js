@@ -3,11 +3,25 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import About from './About';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<App />} />
+        <Route path='about' element={<About />} />
+
+        <Route path='*' element={<div className='text-center mt-20'>
+          <h1 className=' text-8xl'>404</h1>
+          <p className='text-2xl'>Page not found</p>
+          <Link to={'/'}>Go back Home</Link>
+        </div>} />
+
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

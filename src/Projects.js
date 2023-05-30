@@ -4,7 +4,7 @@ const Projects = () => {
         <div id="projects" className="bg-dkblue px-4 py-16 md:px-10 lg:p-16">
             <h2 className="pb-10 text-4xl font-bold">Projects I'm proud of</h2>
             <article className="py-16">
-                <div className="lg:flex lg:relative">
+                <div className="lg:flex lg:relative max-w-[1500px]">
                     <div className="lg:z-10 lg:w-2/5 lg:absolute lg:top-[-40px] lg:right-60">
                         <h4 className="font-bold lg:text-right">Latest Project</h4>
                         <h3 className="text-2xl pb-4 text-aqua lg:text-right">Wall Of Wonder</h3>
@@ -42,7 +42,7 @@ const Projects = () => {
             </article>
 
             <article className="py-16">
-                <div className="lg:flex lg:relative">
+                <div className="lg:flex lg:relative max-w-[1500px]">
                     <div className="lg:order-2 lg:z-10 lg:w-2/5 lg:absolute lg:top-[-40px] lg:right-60">
                         <h4 className="font-bold lg:text-right">Photography Project</h4>
                         <h3 className="text-2xl pb-4 text-aqua lg:text-right">Wall of Wonder Collection</h3>
